@@ -165,6 +165,7 @@ template_name = "omni.usd_composer"
 "omni.tools.distribute" = {}
 "omni.tools.array" = {}
 "isaacsim.code_editor.vscode" = {}
+"isaacsim.core.nodes" = {}
 
 "omni.usd.schema.omniscripting" = {}
 "omni.kit.scripting" = {}
@@ -365,10 +366,10 @@ Viewport.Viewport0.fillViewport = true
 [settings.persistent.rtx]
 mdltranslator.distillMaterial = true  # Render Preferences - Material Distilling ON
 
-
 [settings.rtx]
 ecoMode.enabled = true
 hydra.readTransformsFromFabricInRenderDelegate = true
+
 
 
 [settings]
@@ -379,6 +380,7 @@ privacy.externalBuild = true
 renderer.active = "rtx" # RTX As the default renderer always
 renderer.enabled = "rtx"  # iray, pxr
 structuredLog.enable = true
+rtx-transient.scenedb.useUniformsReindexing = true  # Enable vertex, edge, and mid-point snap for measure tool
 
 
 [settings.telemetry]
